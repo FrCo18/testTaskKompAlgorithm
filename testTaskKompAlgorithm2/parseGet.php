@@ -147,7 +147,7 @@ function parseGet($searchTovar='game',$page=1, $print="noprint"){
                 $configFromParseJson =  json_encode($configFromParse);
                 file_put_contents("json/parseEnd$keyTovarItem.json", $configFromParseJson);
 
-
+                //Вывод массива
                     if($print=="print"){
                         echo "<br>[<br>";
                         foreach($configFromParse as $keyConfig=>$valueConfig){
