@@ -1,5 +1,4 @@
 <?php
-/* set_time_limit (99999); */
 class BrandCategoryImagesDescriptionStock{
     public $Brand = "";
     public $Category =[];
